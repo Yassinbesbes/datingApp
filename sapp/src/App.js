@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './styles.css';
 import RoundedRectangle from './all.js';
 import animals from './images/animals.png';
 import alphabet from './images/alphabet.png';

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './all.css';
+import './styles.css';
 
 const RoundedRectangle = ({ imageUrl, soundEffect }) => {
   const [isFullSize, setFullSize] = useState(false);
@@ -11,15 +11,14 @@ const RoundedRectangle = ({ imageUrl, soundEffect }) => {
 
   const handleClick = () => {
     setFullSize(true);
-
-    // Automatically return to original size after 1 seconds
+    
     setTimeout(() => {
       setFullSize(false);
     }, 1000);
   };  
+
   const Click = () => {
     playSoundEffect();
-
   };
 
   const imageSize = isFullSize ? { width: '100%', height: '100%' } : {};
