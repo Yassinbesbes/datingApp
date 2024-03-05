@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    background-color: #f7e9e9f5;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    
+}
+#container {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+  }
+
+  #question {
+    font-size: 24px;
+    margin-top: 50px;
+  }
+
+  #options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .option {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border:none;
+    background-color: #FFD2D2;
+    cursor: pointer;
+    line-height: 30px;
+    margin:20px;
+  }
+
+  #image {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+  }
